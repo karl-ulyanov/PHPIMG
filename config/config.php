@@ -19,4 +19,5 @@ DEFINE(IMG_H, 250);
 DEFINE(FLOOD_POST, '5');
 DEFINE(FLOOD_IMG, '10');
 DEFINE(INDEX_SHOW, 5); //Show # of posts in thread on IMGBOARD Index page
+
 ?>

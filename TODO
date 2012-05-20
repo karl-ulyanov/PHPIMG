@@ -1,0 +1,43 @@
+TO DO LIST:
+
+####config.php####
+//MySQL info
+/host
+/port
+/db password
+/database
+/tables for various features (secret posts, bans)
+/admin and mod passwords
+/IP Log everyone BUT admin+mod users
+
+//Board Configuration: 
+/board name
+/board directories (src, thumb, res)
+/file limitations (size, width/height, extensions)
+/flood settings
+
+####imgboard.php####
+//CSS/HTML for page.
+
+//MySQL Functions
+/check for duplicate posts/comments
+/check for banned IP when page loads
+/Adding and Deleting posts
+
+//Image functions
+/check for duplicate images
+/thumbnail images (maybe imagemagick)
+
+//Handling posts
+/Hiding secret posts from everyone (unless secret key matches one in database, use cookies for last used secret key storing clientside?)
+/Show all posts to admins or mods
+/Wordfilters, Spam wordlist
+
+####admin.php####
+//Admin Control Panel
+/IP Bans (Add/Remove)
+/Word filtering (Add/Remove words)
+/Post+Image Deletion (By IP or Secret Key, or PostID) (Also destroy images associated with post)
+/Blotter-News 4chan style
+/Adding Posts by Admins (+sticky)
+/Sticky already created posts

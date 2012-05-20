@@ -27,6 +27,7 @@ $userGroups = array(
     "admin" => array(
         "hostname" => "*",
         "ip" => "*",
+        "password" => "p4ssw0rd",
         "flags" => USERGROUP_FLAGS_SUPERUSER
     )
 );

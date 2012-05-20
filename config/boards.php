@@ -14,9 +14,10 @@ $boardConfig = array(
             "db_name" => "random",
             "db_user" => "dbuser",
             "db_pass" => "dbpass",
-            "db_host" => "localhost"
+            "db_host" => "localhost",
             "www_ext_allowed" => "png,gif,jpg,jpeg",
             "www_thumb_dir" => "random",
+            "www_css" => "main.css",
             "www_max_filesize" => 59481,
             "www_max_threads_per_page" => 10,
             "www_max_threads" => 100
@@ -28,6 +29,7 @@ $boardConfig = array(
             "db_host" => "localhost",
             "www_ext_allowed" => "gif",
             "www_thumb_dir" => "gif",
+            "www_css" => "main.css",
             "www_max_filesize" => 59481,
             "www_max_threads_per_page" => 10,
             "www_max_threads" => 50
@@ -38,14 +40,15 @@ $boardConfig = array(
             "db_name" => "administrators",
             "db_user" => "dbuser",
             "db_pass" => "dbpass",
-            "db_host" => "localhost"
+            "db_host" => "localhost",
             "www_ext_allowed" => "png,gif,jpg,jpeg",
             "www_thumb_dir" => "admin",
+            "www_css" => "admin.css",
             "www_max_filesize" => 59481,
             "www_max_threads" => 100,
             "www_max_threads_per_page" => 20
         )
     )
-);  
+);
 
 ?>

@@ -4,6 +4,7 @@
  * boards.php - general php configuration.
  *
  *
+ *
  */
 
 $boardConfig = array(

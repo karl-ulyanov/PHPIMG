@@ -1,7 +1,8 @@
 <?php
 
 /*
- * boards.php - general php configuration.
+ * boards.php - general board configuration.
+ *
  *
  *
  *

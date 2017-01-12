@@ -15,6 +15,8 @@ TO DO LIST:
 /board directories (src, thumb, res)
 /file limitations (size, width/height, extensions)
 /flood settings
+/board visitor restrictions (boards for users in same geographical location?) restrict via ip
+/ability for premium users to create their own boards via branches?
 
 ####imgboard.php####
 //CSS/HTML for page.
